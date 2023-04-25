@@ -28,7 +28,7 @@ def main():
     password_input.send_keys(pwd)
     sleep_for_period_of_time()
 
-    login_button = browser.find_element(By.XPATH, "//button[@type='submit']")
+    login_button = browser.find_element(By.padx, "//button[@type='submit']")
     login_button.click()
     sleep_for_period_of_time()
 
